@@ -1,0 +1,44 @@
+This directory should contain deb packages included in the bifrost bootstrap procedure.
+
+These must include dropbear, udhcpc, monit, snmp and anything that needs updating.
+
+total 15944
+drwxr-xr-x 2 kwy kwy    4096 2009-12-16 22:34 .
+drwxr-xr-x 5 kwy kwy    4096 2009-12-17 17:31 ..
+-rw-r--r-- 1 kwy kwy   81776 2009-06-01 20:04 cron_3.0pl1-105ubuntu1.1_armel.deb
+-rw-r--r-- 1 kwy kwy  227292 2008-12-08 19:04 dropbear_0.52-1_armel.deb
+-rw-r--r-- 1 kwy kwy   44374 2009-06-05 12:06 file_4.26-2ubuntu4_armel.deb
+-rw-r--r-- 1 kwy kwy  213520 2009-08-07 17:10 language-pack-en_1%3a9.04+20090803.2_all.deb
+-rw-r--r-- 1 kwy kwy  210092 2009-08-17 20:04 libcurl3-gnutls_7.18.2-8ubuntu4.1_armel.deb
+-rw-r--r-- 1 kwy kwy  359916 2009-08-20 00:05 libgnutls26_2.4.2-6ubuntu0.1_armel.deb
+-rw-r--r-- 1 kwy kwy  371936 2009-06-05 12:06 libmagic1_4.26-2ubuntu4_armel.deb
+-rw-r--r-- 1 kwy kwy   56926 2009-09-24 15:05 libnewt0.52_0.52.2-11.3ubuntu3.1_armel.deb
+-rw-r--r-- 1 kwy kwy  110584 2009-09-09 00:04 libpam0g_1.0.1-9ubuntu1.1_armel.deb
+-rw-r--r-- 1 kwy kwy  297478 2009-09-09 00:04 libpam-modules_1.0.1-9ubuntu1.1_armel.deb
+-rw-r--r-- 1 kwy kwy   96516 2009-09-09 00:04 libpam-runtime_1.0.1-9ubuntu1.1_all.deb
+-rw-r--r-- 1 kwy kwy    1066 2009-07-02 20:04 libperl5.10_5.10.0-19ubuntu1.1_armel.deb
+-rw-r--r-- 1 kwy kwy  107684 2009-06-24 20:04 libsasl2-2_2.1.22.dfsg1-23ubuntu3.1_armel.deb
+-rw-r--r-- 1 kwy kwy  147638 2009-06-24 20:04 libsasl2-modules_2.1.22.dfsg1-23ubuntu3.1_armel.deb
+-rw-r--r-- 1 kwy kwy  115582 2008-11-15 23:04 libsensors3_1%3a2.10.7-1_armel.deb
+-rw-r--r-- 1 kwy kwy 1132676 2009-09-24 12:06 libsnmp15_5.4.1~dfsg-12ubuntu3.1_armel.deb
+-rw-r--r-- 1 kwy kwy  528590 2009-09-24 11:05 libsnmp-base_5.4.1~dfsg-12ubuntu3.1_all.deb
+-rw-r--r-- 1 kwy kwy  269992 2009-05-15 20:05 libsqlite3-0_3.6.10-1ubuntu0.2_armel.deb
+-rw-r--r-- 1 kwy kwy  850096 2009-09-14 19:05 libssl0.9.8_0.9.8g-15ubuntu3.3_armel.deb
+-rw-r--r-- 1 kwy kwy   19872 2008-11-13 19:04 libsysfs2_2.1.0-5_armel.deb
+-rw-r--r-- 1 kwy kwy  105328 2009-05-14 22:05 libvolume-id1_141-1.2_armel.deb
+-rw-r--r-- 1 kwy kwy   29296 2008-11-17 23:05 libwrap0_7.6.q-16_armel.deb
+-rw-r--r-- 1 kwy kwy   24430 2009-06-09 01:12 lsb-base_4.0-0ubuntu0.9.04.1_all.deb
+-rw-r--r-- 1 kwy kwy   23886 2009-06-09 01:12 lsb-release_4.0-0ubuntu0.9.04.1_all.deb
+-rw-r--r-- 1 kwy kwy  273072 2008-12-05 19:04 monit_1%3a4.10.1-4_armel.deb
+-rw-r--r-- 1 kwy kwy   64834 2009-12-08 23:05 ntpdate_1%3a4.2.4p4+dfsg-7ubuntu5.2_armel.deb
+-rw-r--r-- 1 kwy kwy  392498 2009-09-14 19:05 openssl_0.9.8g-15ubuntu3.3_armel.deb
+-rw-r--r-- 1 kwy kwy  964974 2009-07-02 20:04 perl-base_5.10.0-19ubuntu1.1_armel.deb
+-rw-r--r-- 1 kwy kwy 3182408 2009-07-02 20:04 perl-modules_5.10.0-19ubuntu1.1_all.deb
+-rw-r--r-- 1 kwy kwy 4528696 2009-07-02 20:04 perl_5.10.0-19ubuntu1.1_armel.deb
+-rw-r--r-- 1 kwy kwy   75442 2009-09-24 12:06 snmpd_5.4.1~dfsg-12ubuntu3.1_armel.deb
+-rw-r--r-- 1 kwy kwy   77788 2008-11-17 23:05 tcpd_7.6.q-16_armel.deb
+-rw-r--r-- 1 kwy kwy  695564 2009-11-25 12:08 tzdata_2009s~repack-0ubuntu9.04_all.deb
+-rw-r--r-- 1 kwy kwy   64248 2009-02-09 11:07 ucf_3.0014_all.deb
+-rw-r--r-- 1 kwy kwy  329206 2009-05-14 22:05 udev_141-1.2_armel.deb
+-rw-r--r-- 1 kwy kwy   24102 2009-12-16 22:34 udhcpc_0.9.8cvs20050303-2.1_armel.deb
+-rw-r--r-- 1 kwy kwy   35482 2009-09-24 15:05 whiptail_0.52.2-11.3ubuntu3.1_armel.deb

@@ -1,0 +1,11 @@
+temp     /tmp     tmpfs defaults 0 0
+log      /var/log tmpfs defaults 0 0
+
+# these are already mounted
+#tmpfs    /lib/init/rw
+#varrun   /var/run
+#varlock  /var/lock
+#udev     /dev
+#tmpfs    /dev/shm
+#rootfs    /
+

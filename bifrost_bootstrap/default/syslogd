@@ -1,0 +1,21 @@
+#
+# Top configuration file for syslogd
+#
+
+#
+# Full documentation of possible arguments are found in the manpage
+# syslogd(8).
+#
+
+#
+# For remote UDP logging use SYSLOGD="-r"
+#
+SYSLOGD=""
+#
+
+# make the files sysklogd expects. this hack is as ugly as the sysklogd chown code
+mkdir /var/log/news
+for file in mail.warn daemon.log debug mail.err syslog mail.log lpr.log news/news.log news/news.err user.log messages auth.log news/news.notice news/news.crit kern.log mail.info dmesg
+do
+   touch /var/log/$file
+done

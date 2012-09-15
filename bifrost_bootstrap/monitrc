@@ -1,0 +1,7 @@
+set daemon 15
+# set logfile /tmp/monlog
+set statefile /tmp/.monit.state
+
+check process bifrost with pidfile /tmp/read_card.pid
+start program = "/usr/local/bifrost/bifrost.sh start"
+stop program = "/usr/local/bifrost/bifrost.sh stop"

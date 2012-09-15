@@ -1,0 +1,2 @@
+# time synchronization
+*/10 * * * * /usr/sbin/rdate -s `cat /etc/ntpserver` >/tmp/rdate.log 2>&1

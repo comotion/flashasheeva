@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo Lease failed: $message
+sleep 1
+kill -USR1 `pgrep udhcpc`
+
+
