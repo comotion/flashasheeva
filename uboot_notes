@@ -1,0 +1,28 @@
+Boot without SD card - things go wrong otherwise.
+
+Hit a key and enter Marvell boot loader:
+
+ls/ext2ls  - list files in a directory (default /)
+fatinfo - print information about filesystem
+flinfo  - print FLASH memory information
+fsinfo  - print information about filesystems
+
+dhcp    - invoke DHCP client to obtain IP/boot params
+dclk    - Display the MV device CLKs.
+boot    - boot default, i.e., run 'bootcmd'
+bootp   - boot image via network using BootP/TFTP protocol
+mv_diag all
+        - run all available tests
+ping    - send ICMP ECHO_REQUEST to network host
+printenv- print environment variables
+sg      - scanning the PHYs status
+sp      - Scan PCI bus.
+tftpboot- boot image via network using TFTP protocol
+usb     - USB sub-system
+usbboot - boot from USB device
+version - print monitor version
+
+1st one wouldn't boot initially.
+flashed  uboot from 3.4.16 to 3.4.19
+ACTION=="add", ATTRS{name}=="Mag-Tek USB Swipe Reader", SYMLINK+="kortleser"
+
