@@ -35,7 +35,7 @@ PRINT_SERVER=print.me.not
 
 
 # what keys to include in the image
-AUTH_KEYS=bootstrap/authorized_keys
+AUTH_KEYS=bifrost_bootstrap/authorized_keys
 
 # grab the required files
 sheeva_bifrost_get () {
